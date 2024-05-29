@@ -13,60 +13,9 @@ header {
     display: flex;
 }
 
-.left-bar {
-    width: 200px;
-    height: 1000px;
-
-    background-color: greenyellow;
-}
-
-.main-box {
-    width: 70%;
-    height: 100%;
-    background-color: aquamarine;
-}
-
-
-
-/* scripts */
-
-body {
-    font-family: Arial, sans-serif;
-}
-.navbar-brand {
-    display: flex;
-    align-items: center;
-}
-.navbar-brand img {
-    max-height: 30px;
-    margin-right: 10px;
-}
-.sidebar {
+.left-nav {
+    background-color: #0d253b!important;
+    background-image: url(../img/sidebar-bg.png);
+    object-fit: cover;
     height: 100vh;
-    background-color: #2d3a4b;
-    padding-top: 1rem;
-}
-.sidebar a {
-    color: white;
-    display: block;
-    padding: 0.5rem 1rem;
-}
-.sidebar a.active, .sidebar a:hover {
-    background-color: #1b2733;
-}
-.content {
-    padding: 1rem;
-}
-.card-header {
-    background-color: #007bff;
-    color: white;
-}
-.card-title {
-    margin-bottom: 0;
-}
-.faq-item {
-    cursor: pointer;
-}
-.faq-item:hover {
-    text-decoration: underline;
 }
